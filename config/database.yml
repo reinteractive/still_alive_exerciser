@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  database: still_alive_exerciser_development_<%= `git symbolic-ref HEAD 2>/dev/null`.chomp.sub('refs/heads/', '').gsub(/\W/, '_') %>
+  pool: 5
+  timeout: 5000
+  username: postgres
+  password:
+
+test:
+  adapter: postgresql
+  database: still_alive_exerciser_test
+  pool: 5
+  timeout: 5000
+  username: postgres
+  password:
