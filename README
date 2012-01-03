@@ -1,0 +1,12 @@
+== Still Alive Exerciser
+
+This application is a simple one hosted to give us a controlled environment to test the StillAlive
+script runner constantly.
+
+The idea is to have a StillAlive script running against this application which tests live every
+possible type of StillAlive parser.
+
+Edge cases can then be implemented into this as needed.
+
+This does not replace the unit tests by any means.  But does give us a live "smoke test" for 
+StillAlive proper.
